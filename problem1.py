@@ -21,8 +21,8 @@ Enter the replacement:Dan
 """
 people = ['Alain', 'Brian', 'Chris', 'Justin', 'Angela', 'Rick']
 print(people)
-x = str(input())
+x = str(input().strip())
 y = people.index(x)
 people.remove(x)
-people.insert(y, str(input()))
+people.insert(y, str(input().strip()))
 print(people)
