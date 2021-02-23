@@ -23,3 +23,5 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+myList = [str(input()), str(input()), str(input()), str(input()), str(input()), ]
+print(myList)
